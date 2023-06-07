@@ -43,6 +43,19 @@ parameters = [
   {
     name  = "dev.user.mongo_url"
     value = "mongodb://mongodb-dev.gangabhavanikatraparthi.online:27017/users"
+  },
+  {
+    name  = "dev.cart.redis_host"
+    value = "redis-dev.gangabhavanikatraparthi.online"
+  },
+  {
+    name  = "dev.cart.catalogue_host"
+    value = "catalogue-dev.gangabhavanikatraparthi.online"
+  },
+  {
+    name  = "dev.cart.catalogue_port"
+    value = "8080"
   }
 ]
+
 
