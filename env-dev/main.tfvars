@@ -19,7 +19,18 @@ parameters = [
   {
     name  = "dev.frontend.payment_url"
     value = "http://payment-dev.gangabhavanikatraparthi.online:8080/"
+  },
+  {
+    name  = "dev.catalogue.mongo_endpoint"
+    value = "http://mongodb-dev.gangabhavanikatraparthi.online"
+  },
+  {
+    name  = "dev.catalogue.mongo"
+    value = "MONGO=true"
+  },
+  {
+    name  = "dev.catalogue.mongo_url"
+    value = "mongodb://mongodb-dev.gangabhavanikatraparthi.online:27017/catalogue"
   }
-
 ]
 
