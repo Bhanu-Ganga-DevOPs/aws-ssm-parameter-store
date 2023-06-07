@@ -22,7 +22,7 @@ parameters = [
   },
   {
     name  = "dev.catalogue.mongo_endpoint"
-    value = "http://mongodb-dev.gangabhavanikatraparthi.online"
+    value = "mongodb-dev.gangabhavanikatraparthi.online"
   },
   {
     name  = "dev.catalogue.mongo"
