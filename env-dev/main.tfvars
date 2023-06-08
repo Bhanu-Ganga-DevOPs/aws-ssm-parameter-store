@@ -69,10 +69,6 @@ parameters = [
     value = "root"
   },
   {
-    name  = "dev.shipping.db_pass"
-    value = "RoboShop@1"
-  },
-  {
     name  = "dev.payment.cart_host"
     value = "cart-dev.gangabhavanikatraparthi.online:27017"
   },
@@ -95,13 +91,20 @@ parameters = [
   {
     name  = "dev.payment.amqp_user"
     value = "roboshop"
+  }
+]
+
+passwrods = [
+  {
+    name  = "dev.shipping.db_pass"
+    value = "RoboShop@1"
   },
   {
     name  = "dev.payment.amqp_pass"
     value = "rabbitmq_appuser_password"
   }
-]
 
+]
 
 
 
