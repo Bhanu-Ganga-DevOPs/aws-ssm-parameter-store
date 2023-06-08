@@ -45,6 +45,10 @@ parameters = [
     value = "mongodb://mongodb-dev.gangabhavanikatraparthi.online:27017/users"
   },
   {
+    name  = "dev.user.mongo_endpoint"
+    value = "mongodb://mongodb-dev.gangabhavanikatraparthi.online"
+  },
+  {
     name  = "dev.cart.redis_host"
     value = "redis-dev.gangabhavanikatraparthi.online"
   },
