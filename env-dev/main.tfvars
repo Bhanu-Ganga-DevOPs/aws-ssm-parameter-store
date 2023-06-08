@@ -105,7 +105,7 @@ passwords = [
   },
   {
     name  = "dev.payment.amqp_pass"
-    value = "rabbitmq_appuser_password"
+    value = "roboshop123"
   }
 
 ]
