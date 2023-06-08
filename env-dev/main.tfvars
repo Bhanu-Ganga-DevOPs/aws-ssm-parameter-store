@@ -94,7 +94,7 @@ parameters = [
   }
 ]
 
-passwrods = [
+passwords = [
   {
     name  = "dev.shipping.db_pass"
     value = "RoboShop@1"
